@@ -2,7 +2,7 @@ Ex2.2.5:
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // Initialize Scanner object
+        Scanner input = new Scanner(System.in); 
         double a, b;
         System.out.println("Enter the first number: ");
         a = input.nextDouble();
@@ -262,7 +262,7 @@ public class MonthDaysCalculator {
             System.out.print("Enter the year (non-negative number): ");
             if (!scanner.hasNextInt()) {
                 System.out.println("Invalid year input.");
-                scanner.next(); // Consume the invalid input
+                scanner.next(); 
                 continue;
             }
             int year = scanner.nextInt();
